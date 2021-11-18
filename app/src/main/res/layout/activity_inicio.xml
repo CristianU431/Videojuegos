@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Inicio">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnDestiny"
+                android:layout_width="405dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="Destiny"
+                app:srcCompat="@drawable/destiny405x250" />
+
+            <ImageButton
+                android:id="@+id/btnCsgo"
+                android:layout_width="405dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="Csgo"
+                app:srcCompat="@drawable/csgo405x250" />
+
+            <ImageButton
+                android:id="@+id/btnGta"
+                android:layout_width="405dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="Gta"
+                app:srcCompat="@drawable/gta405x250" />
+
+            <ImageButton
+                android:id="@+id/btnFifa"
+                android:layout_width="405dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="Fifa"
+                app:srcCompat="@drawable/fifa405x250" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

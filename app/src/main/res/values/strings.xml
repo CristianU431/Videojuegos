@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Videojuegos</string>
+
+    <string name="txtBienvenida">Bienvenido al mundo de los Videojuegos</string>
+    <string name="txtDestiny">DESTINY 2</string>
+    <string name="txtCsgo">Counter Strike</string>
+    <string name="txtGtaV">Grand Theft Auto V</string>
+    <string name="txtFifa">Fifa 22</string>
+</resources>
